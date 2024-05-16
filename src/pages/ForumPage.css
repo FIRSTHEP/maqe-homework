@@ -1,0 +1,35 @@
+:root {
+  --container-margin: 10%;
+  --forum-page-margin-bottom: 1em;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 var(--container-margin);
+}
+
+.forum-page {
+  background-color: #eeee;
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: var(--forum-page-margin-bottom);
+  box-sizing: border-box;
+}
+
+.forum-header {
+  text-align: left;
+  margin-bottom: 2em;
+  color: #1e232e !important;
+}
+
+.timezone-title {
+  color: #1e232e !important;
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+}

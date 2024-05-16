@@ -1,0 +1,51 @@
+.custom-card {
+    border-radius: 0 !important;
+    width: 100%;
+}
+
+.ant-card-body {
+    padding: 16px 16px 24px 16px !important;
+}
+
+.user {
+    color: #f93909;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.posted {
+    color: #6f7f8e;
+    font-size: 0.85rem;
+}
+
+.content-title {
+    color: #1e232e !important;
+    margin-top: 0;
+    margin-bottom: 0.75rem !important;
+}
+
+.content-subtitle {
+    color: #1e232e !important;
+    margin-top: 0;
+    margin-bottom: 0.75rem !important;
+}
+
+.forum-card .image-container {
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #f0f0f0;
+    border-radius: 0 !important;
+}
+
+.forum-card .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
